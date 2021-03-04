@@ -1,0 +1,35 @@
+name: todo
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.6.7+22
+  geolocator: ^6.2.1
+  geocoder: ^0.2.1
+  circular_bottom_navigation: ^1.0.1
+  flutter_secure_storage: ^3.3.5
+  http: ^0.12.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.8.1
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "C:/Users/berna/Desktop/projects/flutter projects/eralpSoftware/todo/lib/assets/images/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - C:/Users/berna/Desktop/projects/flutter projects/eralpSoftware/todo/lib/assets/images/logo.png
